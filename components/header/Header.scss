@@ -1,9 +1,16 @@
 .header {
-    color: white;
-    background-color: #30373f;
+  background-color: var(--header-bg-color);
 
-    a {
-        color: white;
-        text-decoration: none;
+  a {
+    color: var(--header-color);
+    text-decoration: none;
+
+    &.active {
+      color: var(--primary-color);
     }
+
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
 }
