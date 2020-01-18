@@ -11,7 +11,7 @@ class CustomDocument extends Document {
       <Html>
         <Head>
           <link
-            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Anonymous+Pro|Pompiere&display=swap"
             rel="stylesheet"
           />
         </Head>

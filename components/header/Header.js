@@ -18,6 +18,7 @@ const Header = () => (
     <ActiveLink href="/">
       <a title="Home">Home</a>
     </ActiveLink>
+    <div className="logo">&lt;/&gt;</div>
     <ActiveLink href="/contact">
       <a title="Contact">Contact</a>
     </ActiveLink>
