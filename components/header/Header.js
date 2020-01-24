@@ -1,27 +1,16 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
 import "./Header.scss";
+import Link from "next/link";
 
-const ActiveLink = ({ href, children }) => {
-  const router = useRouter();
-
-  let className = children.props.className || "";
-  if (router.pathname === href) {
-    className = `${className} active`;
-  }
-
-  return <Link href={href}>{React.cloneElement(children, { className })}</Link>;
-};
+const ActiveLink = ({ href, children }) => (
+  <Link href={href}>
+    <a>{React.Children.toArray(children)}</a>
+  </Link>
+);
 
 const Header = () => (
   <nav className="header">
-    <ActiveLink href="/">
-      <a title="Home">Home</a>
-    </ActiveLink>
-    <div className="logo">&lt;/&gt;</div>
-    <ActiveLink href="/contact">
-      <a title="Contact">Contact</a>
-    </ActiveLink>
+    <ActiveLink href="/">Home</ActiveLink>
+    <ActiveLink href="/contact">Contact</ActiveLink>
   </nav>
 );
 
