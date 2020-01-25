@@ -1,11 +1,11 @@
 import Header from "../components/header";
+import Page from "../components/page";
 
 const Index = () => (
-    <div>
-        <Header />
-        <h1>EasterBlanket Development</h1>
-        <p>Er wordt aan deze website gewerkt&hellip;</p>
-    </div>
+  <Page>
+    <h1>EasterBlanket Development</h1>
+    <p>Er wordt aan deze website gewerkt&hellip;</p>
+  </Page>
 );
 
 export default Index;

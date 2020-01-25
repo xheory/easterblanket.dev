@@ -1,7 +1,10 @@
+@import "./colors.scss";
+
 html,
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  background-color: $blue;
 }
 
 h1,
