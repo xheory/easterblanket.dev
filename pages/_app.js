@@ -10,6 +10,7 @@ export default ({ Component, pageProps }) => {
       </Head>
       <Header />
       <Component {...pageProps} />
+      {/* <Footer /> */}
     </>
   );
 };

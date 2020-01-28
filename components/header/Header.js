@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 const ActiveLink = ({ href, children, ...restProps }) => {
   let classes = restProps.className || "";
   if (href === useRouter().pathname) {
-    classes += " active";
+    classes = "active " + classes;
   }
   console.log("Classes:", classes);
   return (
