@@ -1,10 +1,6 @@
-@import "./colors.scss";
-
-html,
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  background-color: desaturate($primary, 15%);
 }
 
 h1,

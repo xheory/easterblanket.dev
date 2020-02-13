@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Header from "../components/header";
+import Header from "../components/Header";
 import "../styles/global.scss";
 
 export default ({ Component, pageProps }) => {
@@ -10,7 +10,6 @@ export default ({ Component, pageProps }) => {
       </Head>
       <Header />
       <Component {...pageProps} />
-      {/* <Footer /> */}
     </>
   );
 };

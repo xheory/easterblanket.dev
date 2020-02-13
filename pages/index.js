@@ -1,5 +1,4 @@
-import Header from "../components/header";
-import Page from "../components/page";
+import Page from "../components/Page";
 
 const Index = () => (
   <Page>

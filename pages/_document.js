@@ -8,7 +8,7 @@ class CustomDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en-US">
         <Head>
           <link
             href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:400,400i,700,700i&display=swap"
