@@ -1,9 +1,9 @@
-import Page from "../components/Page";
+import Page from "../components/Page/Page";
 
 const Index = () => (
   <Page>
     <h1>EasterBlanket Development</h1>
-    <p>Er wordt aan deze website gewerkt&hellip;</p>
+    <p>This site is under construction&hellip;</p>
   </Page>
 );
 

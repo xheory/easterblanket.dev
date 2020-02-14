@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Header from "../components/Header";
+import NavBar from "../components/NavBar/NavBar";
 import "../styles/global.scss";
 
 export default ({ Component, pageProps }) => {
@@ -8,7 +8,7 @@ export default ({ Component, pageProps }) => {
       <Head>
         <title>EasterBlanket Development</title>
       </Head>
-      <Header />
+      <NavBar />
       <Component {...pageProps} />
     </>
   );
