@@ -14,7 +14,7 @@ const Resume = () => {
           <li>https://oosterlaken.dev/</li>
         </ul>
       </header>
-      <hr className="print-only" />
+      <hr />
       <section>
         <h3>Work Experience</h3>
         <p>Under construction&hellip;</p>
