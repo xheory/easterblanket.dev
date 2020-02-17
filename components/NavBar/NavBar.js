@@ -3,7 +3,7 @@ import "./NavBar.scss";
 import Container from "../Container/Container";
 
 const NavBar = () => (
-  <nav className="nav-bar">
+  <nav className="nav-bar no-print">
     <Container>
       <NavLink href="/">Home</NavLink>
       <NavLink href="/resume">Résumé</NavLink>

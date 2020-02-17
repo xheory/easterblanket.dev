@@ -1,6 +1,8 @@
 {
   "name": "easterblanket.dev",
+  "description": "Portfolio and company site.",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -11,13 +13,13 @@
     "url": "git+https://github.com/xheory/easterblanket.dev.git"
   },
   "dependencies": {
-    "@zeit/next-sass": "^1.0.1",
     "next": "^9.1.7",
-    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "node-sass": "^4.13.1",
     "husky": "^4.0.7",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1"

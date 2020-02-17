@@ -1,0 +1,31 @@
+@import "../../styles/colors.scss";
+
+.resume {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .header-section {
+      h1 {
+        margin: 0;
+      }
+
+      h2 {
+        margin: 0;
+        color: $blue;
+      }
+    }
+
+    ul.header-section {
+      font-size: 14px;
+      margin: 0;
+      padding-left: 0;
+      list-style: none;
+
+      li {
+        line-height: 1.675em;
+      }
+    }
+  }
+}
