@@ -6,6 +6,9 @@
   justify-content: center;
 
   .container {
+    display: flex;
+    justify-content: space-between;
+
     a {
       display: inline-block;
       padding: 12px;
