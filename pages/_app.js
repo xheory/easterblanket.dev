@@ -5,6 +5,10 @@ import {
   faEnvelope,
   faGlobe,
   faPhoneAlt,
+  faGraduationCap,
+  faSuitcase,
+  faStar,
+  faBook,
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "../styles/global.scss";
@@ -12,7 +16,16 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 
 config.autoAddCss = false;
 
-library.add(faGithub, faPhoneAlt, faEnvelope, faGlobe);
+library.add(
+  faGithub,
+  faPhoneAlt,
+  faEnvelope,
+  faGlobe,
+  faGraduationCap,
+  faSuitcase,
+  faStar,
+  faBook
+);
 
 export default ({ Component, pageProps }) => {
   return (

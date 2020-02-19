@@ -5,6 +5,7 @@
     display: block;
 
     section {
+      display: block;
       margin-bottom: 1.5em;
       padding-bottom: 1.5em;
       border-bottom: 1px solid $light-gray;
@@ -14,19 +15,20 @@
       }
     }
 
+    .skills {
+      grid-area: skills;
+    }
+
     .work-experience {
       grid-area: work;
-      display: block;
     }
 
     .education {
       grid-area: education;
-      display: block;
     }
 
     .achievements {
       grid-area: achievements;
-      display: block;
       margin-bottom: 0;
       padding-bottom: 0;
       border-bottom: none;
@@ -39,6 +41,7 @@
     section {
       display: grid;
       grid-template-areas:
+        "skills education"
         "work education"
         "work achievements";
       grid-template-rows: auto 1fr;
