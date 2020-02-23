@@ -3,6 +3,10 @@
 }
 
 @media print {
+  body {
+    font-size: 12px;
+  }
+
   .no-print {
     display: none;
   }

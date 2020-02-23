@@ -4,7 +4,7 @@
   padding: 12px;
   border: 1px solid $light-gray;
   border-radius: 4px;
-  margin-top: 16px;
+  margin-top: 24px;
 
   &:first-child {
     margin-top: 0;
@@ -13,6 +13,7 @@
   .entry-row {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 
     .title,
     .subtitle {
@@ -26,18 +27,19 @@
 
     .subtitle {
       color: $blue;
-      font-size: 16px;
+      font-size: 1em;
     }
 
     .timespan {
-      font-family: "Open Sans Condensed", sans-serif;
-      // margin-left: 4px;
+      color: $dark-gray;
+      background-color: $white;
+      white-space: nowrap;
+      font-size: 0.8em;
     }
 
     &.body {
       display: block;
       margin-top: 12px;
-      font-size: 12px;
     }
   }
 }

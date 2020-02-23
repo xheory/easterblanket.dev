@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Java",
+    "entries": ["Spring", "Spring Boot", "Drools"]
+  },
+  {
+    "name": "Python",
+    "entries": ["Flask", "Web2Text", "TensorFlow"]
+  },
+  {
+    "name": "JavaScript",
+    "entries": ["React", "Svelte", "Angular", "AngularJS", "Node.js"]
+  },
+  {
+    "name": "Devops",
+    "entries": ["CI & CD", "Docker", "DigitalOcean", "AWS"]
+  },
+  {
+    "name": "Other",
+    "entries": ["Blender", "Photoshop", "Unity", "Illustrator"]
+  }
+]
