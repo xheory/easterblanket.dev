@@ -8,7 +8,6 @@ const ResumePage = () => (
       This is the online version of my résumé. Click <a href="#">here</a> to
       download a PDF variant.
     </p>
-    <hr className="no-print" />
     <Resume />
   </Page>
 );

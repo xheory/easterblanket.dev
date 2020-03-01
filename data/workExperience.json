@@ -1,0 +1,33 @@
+[
+  {
+    "company": "EasterBlanket Development",
+    "job": "Freelancer",
+    "time": "Dec 2019 – Now",
+    "achievements": [
+      "Prototyped an Amazon Alexa skill that provides a quick access voice interface to Quyntess's software.",
+      "Continued development of DevelopDiverse's Angular dashboard."
+    ]
+  },
+  {
+    "company": "Jibia",
+    "job": "Full Stack Developer",
+    "time": "Oct 2018 – Aug 2019",
+    "achievements": [
+      "Designed and created multiple Flask API's for our API network.",
+      "Contributed to the overall system architecture design.",
+      "Led the development of two React dashboards and a shared component library.",
+      "Trained another developer in using React.",
+      "Setup several Docker containers and got into continuous integration and deployment configuration."
+    ]
+  },
+  {
+    "company": "PeopleScience",
+    "job": "Developer & Co-founder",
+    "time": "Jul 2015 – Nov 2018",
+    "achievements": [
+      "Developed a clustering algorithm that made the most optimal teams for any task, driven by text analysis with Word2Vec.",
+      "Wrote the clustering API in Flask, later porting the REST functionality to a Drools-driven Java Spring Boot implementation.",
+      "Made several AngularJS applications for demonstrating API capabilities."
+    ]
+  }
+]

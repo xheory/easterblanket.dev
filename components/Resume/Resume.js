@@ -1,6 +1,7 @@
 import "./Resume.scss";
 import Header from "./Header/Header";
 import Skills from "./Skills/Skills";
+import WorkExperience from "./WorkExperience/WorkExperience";
 import Entry from "./Entry/Entry";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -20,23 +21,7 @@ const Resume = () => {
           <h3>
             <FontAwesomeIcon icon="suitcase" /> Work Experience
           </h3>
-          <div className="entries">
-            <Entry
-              title="EasterBlanket Development"
-              subtitle="Freelancer"
-              timespan="Dec 2019 – Now"
-            ></Entry>
-            <Entry
-              title="Jibia"
-              subtitle="Full Stack Developer"
-              timespan="Oct 2018 – Aug 2019"
-            ></Entry>
-            <Entry
-              title="PeopleScience"
-              subtitle="Developer &amp; Co-founder"
-              timespan="Jul 2015 – Nov 2018"
-            ></Entry>
-          </div>
+          <WorkExperience />
         </section>
         <section className="education">
           <h3>
@@ -53,8 +38,8 @@ const Resume = () => {
               based on the Levensthein Distance.
               <br />
               <br />I was active in our study association, U.S.C.K.I. Incognito.
-              As a member of many commissions I mainly organized talks – from
-              graduates, professors, etc... – for other AI students.
+              As a member of several commissions I mainly organized talks from
+              alumni, professors, etc.
             </Entry>
           </div>
         </section>
@@ -65,9 +50,12 @@ const Resume = () => {
           <div className="entries">
             <Entry title="Junction Hackathon" timespan="Nov 2019">
               Participated in Junction 2019 in Helsinki, scoring second place in
-              the community popularity vote. We applied "AI-based Crowd Control"
-              in our concept application "PocketPark" to improve the experiences
-              of both visitors and management of Finland's national parks.
+              the community popularity vote.
+              <br />
+              <br />
+              We applied AI-based Crowd Control in our concept application
+              "PocketPark" to improve the experiences of both visitors and
+              management of Finland's national parks.
             </Entry>
             <Entry title="Xomnia Hackathons" timespan="2016 – 2018">
               Participated multiple in Xomnia hackathons. We won the first prize

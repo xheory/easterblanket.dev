@@ -5,7 +5,7 @@
   },
   {
     "name": "Python",
-    "entries": ["Flask", "Web2Text", "TensorFlow"]
+    "entries": ["Flask", "NLTK", "Word2Vec", "TensorFlow"]
   },
   {
     "name": "JavaScript",
@@ -13,7 +13,7 @@
   },
   {
     "name": "Devops",
-    "entries": ["CI & CD", "Docker", "DigitalOcean", "AWS"]
+    "entries": ["CI & CD Scripting", "Docker", "DigitalOcean", "AWS"]
   },
   {
     "name": "Other",
