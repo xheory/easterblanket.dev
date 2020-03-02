@@ -35,7 +35,7 @@ const Resume = () => {
             >
               During my studies, I mainly focused on courses related to computer
               science. For my thesis, I wrote a custom classification algorithm
-              based on the Levensthein Distance.
+              based on the Levenshtein Distance.
               <br />
               <br />I was active in our study association, U.S.C.K.I. Incognito.
               As a member of several commissions I mainly organized talks from
