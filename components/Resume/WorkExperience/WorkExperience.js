@@ -9,10 +9,11 @@ const WorkExperience = () =>
       title={company}
       subtitle={job}
       timespan={time}
+      key={company}
     >
       <ul>
-        {achievements.map(achievement => (
-          <li>{achievement}</li>
+        {achievements.map((achievement, achievementId) => (
+          <li key={achievementId}>{achievement}</li>
         ))}
       </ul>
     </Entry>
