@@ -5,8 +5,11 @@ const ResumePage = () => (
   <Page>
     <h1 className="no-print">Résumé</h1>
     <p className="no-print">
-      This is the online version of my résumé. Click <a href="#">here</a> to
-      download a PDF variant.
+      This is the online version of my résumé. Click{" "}
+      <a href="/resume_richard_oosterlaken.pdf" download>
+        here
+      </a>{" "}
+      to download a PDF variant.
     </p>
     <Resume />
   </Page>
