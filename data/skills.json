@@ -14,9 +14,5 @@
   {
     "name": "Devops",
     "entries": ["CI & CD Scripting", "Docker", "DigitalOcean", "AWS"]
-  },
-  {
-    "name": "Other",
-    "entries": ["Blender", "Photoshop", "Unity", "Illustrator"]
   }
 ]
