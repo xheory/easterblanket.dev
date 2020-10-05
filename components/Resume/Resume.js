@@ -49,13 +49,13 @@ const Resume = () => {
           </h3>
           <div className="entries">
             <Entry title="Junction Hackathon" timespan="Nov 2019">
-              Participated in Junction 2019 in Helsinki, scoring second place in
+              Participated in Junction 2019 in Helsinki, getting second place in
               the community popularity vote.
               <br />
               <br />
-              We applied AI-based Crowd Control in our concept application
-              "PocketPark" to improve the experiences of both visitors and
-              management of Finland's national parks.
+              We created an AI-based Crowd Control in our concept application
+              "PocketPark". This would improve the experiences of both visitors
+              and management of Finland's national parks.
             </Entry>
             <Entry title="Xomnia Hackathons" timespan="2016 – 2018">
               Participated multiple in Xomnia hackathons. We won the first prize
