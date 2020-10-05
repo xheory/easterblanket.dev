@@ -1,15 +1,15 @@
 [
   {
-    "name": "Java",
-    "entries": ["Spring", "Spring Boot", "Drools"]
-  },
-  {
     "name": "Python",
     "entries": ["Flask", "NLTK", "Word2Vec", "TensorFlow"]
   },
   {
+    "name": "Java",
+    "entries": ["Spring", "Spring Boot", "Drools"]
+  },
+  {
     "name": "JavaScript",
-    "entries": ["React", "Svelte", "Angular", "AngularJS", "Node.js"]
+    "entries": ["React", "Angular", "AngularJS", "Node.js"]
   },
   {
     "name": "Devops",

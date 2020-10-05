@@ -1,11 +1,21 @@
 [
   {
+    "company": "Develop Diverse",
+    "job": "Freelance Front-end",
+    "time": "Jan 2020 – Now",
+    "achievements": [
+      "Added multiple pages and new functionality to the dashboard.",
+      "Reworked core functionality of the bias detection editor.",
+      "Continuous refactoring and clean-up of old code."
+    ]
+  },
+  {
     "company": "EasterBlanket Development",
     "job": "Freelancer",
     "time": "Dec 2019 – Now",
     "achievements": [
       "Prototyped an Amazon Alexa skill that provides a quick access voice interface to Quyntess's software.",
-      "Continued development of DevelopDiverse's Angular dashboard."
+      "Longer-term development at Develop Diverse."
     ]
   },
   {
